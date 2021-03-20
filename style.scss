@@ -9,13 +9,17 @@ body {
   background-color: #efd592 !important;
 }
 
-.navbar-toggler-icon {
-  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg");
-  color: yellow;
+.hamburger {
   position: fixed;
   top: 20px;
   right: 20px;
-  font-size: 3rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.st0 {
+  fill: #efd592;
 }
 
 .main {
@@ -29,7 +33,7 @@ body {
   height: 90vh;
   width: 50%;
   background-color: #242d38;
-  margin: 10px 40px;
+  margin: 40px;
 }
 .text {
   color: #242d38;
@@ -37,10 +41,10 @@ body {
   overflow-wrap: wrap;
   padding: 30px;
   margin: 0 50px 0 0;
-  h2 {
+  h1 {
     font-weight: 800;
   }
-  p {
+  .article {
     line-height: 2rem;
     margin: 80px 0;
     font-family: "Cardo", serif !important;
@@ -63,6 +67,9 @@ body {
     padding: 70px;
   }
   .blue {
-    margin: -40px !important;
+    margin: 0;
+  }
+  .st0 {
+    text-shadow: 0 0 3px #efd592;
   }
 }
