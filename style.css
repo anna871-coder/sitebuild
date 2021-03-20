@@ -36,10 +36,10 @@ body {
 }
 
 .blue {
-  height: 100vh;
+  height: 90vh;
   width: 50%;
   background-color: #242d38;
-  margin: 40px;
+  margin: 10px 40px;
 }
 
 .text {
